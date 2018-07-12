@@ -11,6 +11,8 @@
 \usepackage{caption}
 \usepackage{subcaption}
 
+\usepackage[section]{placeins} % Ensure that images go in the right section
+
 
 
 \title{Transfer learning in mammography}
@@ -56,7 +58,7 @@ The images are large and varying in size, around 2000 by 3000 pixels, 13 bit gre
 \caption{Example of the full image mammograms.  The original DICOM images were 13 bit and these have had the contrast windowed to 8 bit so that they can be printed and displayed on conventional monitors.}
 \label{fig:test}
 \end{figure}
-
+\FloatBarrier
 \section{Conclusions}
 
 \newpage
